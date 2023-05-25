@@ -127,7 +127,7 @@ while nums:
 # MergeSort (and most built-in sorting functions)
 ```
 ### Qn 8
-- Big O(2^n)
+- Big O(2^n) - Here the algorithm doubles with each addition to the input data set
 ```
 # Recursion, tree height n, two branches
 def recursion(i, nums):
@@ -137,7 +137,7 @@ def recursion(i, nums):
     branch2 = recursion(i + 2, nums)
 ```
 ### Qn 9
-- Big O(c^n)
+- Big O(c^n) - Here the algorithm might double, triple, quadruple e.t.c with addtion to the input data set. I.e- It might be (2^n), (3^n), (4^n), (10^n) etc. 
 ```
 # c branches, where c is sometimes n.
 def recursion(i, nums, c):
