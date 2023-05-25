@@ -115,7 +115,7 @@ heapq.heappush(minHeap, 5)
 heapq.heappop(minHeap)
 ```
 ### Qn 7
-- Big O(nlogn)
+- Big O(nlogn) - Implies that log n operations will occur for n times
 ```
 # HeapSort
 import heapq
