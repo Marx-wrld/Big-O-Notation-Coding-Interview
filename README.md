@@ -2,7 +2,7 @@
 Repo containing Big O notations, coding interview solutions. 
 
 ### Qn 1
-- Big O(1)
+- Big O(1) - For a constant time
 ```
 # Array
 nums = [1, 2, 3]
