@@ -164,6 +164,7 @@ for i in range(1, int(math.sqrt(n)) + 1):
 ```
 # Mostly used in Permutations & Graph problems
 # E.g- The Travelling Salesman Problem - *Given a set of cities and the distance between every pair of cities as an adjacency matrix, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point.
+![Interview](https://github.com/Marx-wrld/Big-O-Notation-Coding-Interview/assets/105711066/62eb18ff-f647-4b27-9f78-82b90faacaf6)
 
 from sys import maxsize
 from itertools import permutations
