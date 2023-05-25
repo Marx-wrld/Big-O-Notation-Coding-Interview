@@ -161,11 +161,10 @@ for i in range(1, int(math.sqrt(n)) + 1):
 ```
 ### Qn 11
 - Big O(n!) - Here the algorithm must perform n! calculations.
+![Interview](https://github.com/Marx-wrld/Big-O-Notation-Coding-Interview/assets/105711066/ddb1f69f-8a6f-468c-93fc-55db9ca01e19)
 ```
 # Mostly used in Permutations & Graph problems
 # E.g- The Travelling Salesman Problem - *Given a set of cities and the distance between every pair of cities as an adjacency matrix, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point.
-
-![Interview](https://github.com/Marx-wrld/Big-O-Notation-Coding-Interview/assets/105711066/ddb1f69f-8a6f-468c-93fc-55db9ca01e19)
 
 from sys import maxsize
 from itertools import permutations
