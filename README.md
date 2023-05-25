@@ -56,7 +56,7 @@ for i in range(len(nums)):
 # Insertion sort (insert in middle n times -> n^2)
 ```
 ### Qn 4
-- Big O(n * m)
+- Big O(n*m)
 ```
 # Get every pair of elements from two arrays
 nums1, nums2 = [1, 2, 3], [4, 5]
