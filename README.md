@@ -159,3 +159,8 @@ for i in range(1, int(math.sqrt(n)) + 1):
         factors.add(i)
         factors.add(n // i)
 ```
+### Qn 11
+- Big O(n!)
+```
+# Mostly used in Permutations & Graph problems
+# E.g- The Travelling Salesman Problem
