@@ -2,7 +2,7 @@
 Repo containing Big O notations coding interview solutions 
 
 ### Qn 1
-#### Big O(1)
+#### - Big O(1)
 ```
 # Array
 nums = [1, 2, 3]
