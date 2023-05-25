@@ -1,7 +1,8 @@
 # Big-O-Notation-Coding-Interview
 Repo containing Big O notations coding interview solutions 
 
-### Big O(1)
+### Qn 1
+#### Big O(1)
 ```
 # Array
 nums = [1, 2, 3]
