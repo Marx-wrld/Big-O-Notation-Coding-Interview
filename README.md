@@ -2,7 +2,7 @@
 Repo containing Big O notations, coding interview solutions. 
 
 ### Qn 1
-- Big O(1) - For a constant time
+- Big O(1) - For a constant time.
 ```
 # Array
 nums = [1, 2, 3]
@@ -20,7 +20,7 @@ print(hashMap["key"])   # lookup
 hashMap.pop("key")      # remove
 ````
 ### Qn 2
-- Big O(n) - For a linear time where growth is proportional
+- Big O(n) - For a linear time where growth is proportional.
 ```
 nums = [1, 2, 3]
 sum(nums)           # sum of array
@@ -38,7 +38,7 @@ heapq.heapify(nums) # build heap
 # (e.g. monotonic stack or sliding window)
 ```
 ### Qn 3
-- Big O(n^2) - Here performance is proportional to the square of the size of the input elements
+- Big O(n^2) - Here performance is proportional to the square of the size of the input elements.
 ```
 # Traverse a square grid
 nums = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -56,7 +56,7 @@ for i in range(len(nums)):
 # Insertion sort (insert in middle n times -> n^2)
 ```
 ### Qn 4
-- Big O(n*m) - For a 2 dimensional matrix e.g - n number of rows and m number of columns
+- Big O(n*m) - For a 2 dimensional matrix e.g - n number of rows and m number of columns.
 ```
 # Get every pair of elements from two arrays
 nums1, nums2 = [1, 2, 3], [4, 5]
@@ -115,7 +115,7 @@ heapq.heappush(minHeap, 5)
 heapq.heappop(minHeap)
 ```
 ### Qn 7
-- Big O(nlogn) - Implies that log n operations will occur for n times
+- Big O(nlogn) - Implies that log n operations will occur for n times.
 ```
 # HeapSort
 import heapq
@@ -127,7 +127,7 @@ while nums:
 # MergeSort (and most built-in sorting functions)
 ```
 ### Qn 8
-- Big O(2^n) - Here the algorithm doubles with each addition to the input data set
+- Big O(2^n) - Here the algorithm doubles with each addition to the input data set.
 ```
 # Recursion, tree height n, two branches
 def recursion(i, nums):
@@ -160,7 +160,7 @@ for i in range(1, int(math.sqrt(n)) + 1):
         factors.add(n // i)
 ```
 ### Qn 11
-- Big O(n!) - Here the algorithm must perform n! calculations 
+- Big O(n!) - Here the algorithm must perform n! calculations.
 ```
 # Mostly used in Permutations & Graph problems
 # E.g- The Travelling Salesman Problem
