@@ -162,7 +162,7 @@ for i in range(1, int(math.sqrt(n)) + 1):
 ### Qn 11
 - Big O(n!) - Here the algorithm must perform n! calculations.
 
-##### E.g- The Travelling Salesman Problem - *Given a set of cities and the distance between every pair of cities as an adjacency matrix, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point.
+  ##### E.g- The Travelling Salesman Problem - *Given a set of cities and the distance between every pair of cities as an adjacency matrix, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point.
 
 ```
 # Mostly used in Permutations & Graph problems
