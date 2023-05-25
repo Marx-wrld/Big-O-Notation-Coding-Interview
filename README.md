@@ -1,5 +1,5 @@
 # Big-O-Notation-Coding-Interview
-Repo containing Big O notations coding interview solutions 
+Repo containing Big O notations, coding interview solutions 
 
 ### Qn 1
 - Big O(1)
