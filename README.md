@@ -20,7 +20,7 @@ print(hashMap["key"])   # lookup
 hashMap.pop("key")      # remove
 ````
 ### Qn 2
-- Big O(n)
+- Big O(n) - For a linear time where growth is proportional
 ```
 nums = [1, 2, 3]
 sum(nums)           # sum of array
@@ -38,7 +38,7 @@ heapq.heapify(nums) # build heap
 # (e.g. monotonic stack or sliding window)
 ```
 ### Qn 3
-- Big O(n^2)
+- Big O(n^2) - Here performance is proportional to the square of the size of the input elements
 ```
 # Traverse a square grid
 nums = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -56,7 +56,7 @@ for i in range(len(nums)):
 # Insertion sort (insert in middle n times -> n^2)
 ```
 ### Qn 4
-- Big O(n*m)
+- Big O(n*m) - For a 2 dimensional matrix e.g - n number of rows and m number of columns
 ```
 # Get every pair of elements from two arrays
 nums1, nums2 = [1, 2, 3], [4, 5]
@@ -71,7 +71,7 @@ for i in range(len(nums)):
         print(nums[i][j])
 ```
 ### Qn 5
-- Big O(n^3)
+- Big O(n^3) - Where algorithm runs in a cubic time
 ```
 # Get every triplet of elements in array
 nums = [1, 2, 3]
@@ -81,7 +81,7 @@ for i in range(len(nums)):
             print(nums[i], nums[j], nums[k])
  ```
 ### Qn 6
-- Big O(logn)
+- Big O(logn) - As the input size grows, the number of operations grows, but very slowly. *Efficient than O(n)
 ```
 # Binary search
 nums = [1, 2, 3, 4, 5]
