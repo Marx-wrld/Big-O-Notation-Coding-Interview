@@ -148,7 +148,7 @@ def recursion(i, nums, c):
         branch = recursion(j + 1, nums)
  ```
 ### Qn 10
-- Big O(sqrt(n))
+- Big O(sqrt(n)) - Algortithm here requires O(n^1/2) evaluations where the size of input is n.
 ```
 # Get all factors of n
 import math
@@ -160,7 +160,7 @@ for i in range(1, int(math.sqrt(n)) + 1):
         factors.add(n // i)
 ```
 ### Qn 11
-- Big O(n!)
+- Big O(n!) - Here the algorithm must perform n! calculations 
 ```
 # Mostly used in Permutations & Graph problems
 # E.g- The Travelling Salesman Problem
